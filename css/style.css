@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+    max-width: 499px;
+}
+.background {
+    /* display: inline-flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* max-width: 449px; */
+    justify-content: center;
+    background: yellowgreen;
+    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+}
+
+/*global text ajustments for main section*/
+.projects h3,
+.experience h3,
+.education h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000000;
+}
+.experience h4,
+.education h4{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #000000;
+    margin-top: 20px;
+}
+.experience p,
+.education p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #222;
+    margin-top: 10px;
+}
+.experience ul,
+.education ul{
+    margin-top: 10px;
+    padding-left: 18px;
+    font-weight: 400;
+    font-size: 22;
+    line-height: 1.5;
+    color: #111;
+}
+.black-text{
+    color: #000000;
+} 
+.tomato-text,
+.education .tomato-text {
+    color: #FB6D3A;
+}
+.main-content{
+    padding: 7%;
+    background-color: aliceblue;
+}
+.projects{
+    margin-top: 40px;
+}
+.projects ol{
+    padding-left: 16px;
+    margin-top: 10px;
+}
+.projects li, .projects a{
+    font-weight: 700;
+    font-size: 22;
+    line-height: 1.5;
+    color: #000;
+}
+
+.projects-items ul>li{
+    list-style: none;
+}
+.projects a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #222;
+}
+.grey-text {
+    color: #595959;
+    font-weight: 400;
+}
+.project-skill{
+    display: inline-block;
+}
+/*experience*/
+.experience{
+    /* max-width: 449px; */
+    margin-top: 50px;
+}
+.learning-exp{
+    margin-top: 40px;
+}
+/*education*/
+.education{
+    /* max-width: 449px; */
+    margin-top: 40px;
+}
+.experience h5,
+.education h5 {
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin-top: 10px;
+}
+
+/*sidebar*/
+.sidebar{
+    background: #1E2939;
+    color: #FFFFFF;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.avatar {
+    overflow: hidden;
+    width: 86%;
+    padding-bottom: 86%;
+    height: 0;
+    position: relative;
+    margin: 0 auto;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*about me section*/
+.about-me h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.about-me h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.about-me p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #FFFFFF;
+}
+.about-me,
+.contacts,
+.t-skills,
+.s-skills,
+.l-skills {
+    margin: 7%;
+}
+
+/*contacts*/
+.contacts ul{
+    margin-top: 10px;
+    list-style-type: none;
+}
+.white-character{
+    font-weight: 700;
+    margin-right: 10px;
+}
+.contacts a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #FFFFFF;
+}
+.messengers {
+    text-align: center;
+    display: inline-block;
+}
+.messengers img {
+    margin: 3% 0 3% 12%;
+}
+.messengers .whatsapp {
+    margin-left: 0;
+}
+.contacts .mail{
+    text-decoration: underline;
+}
+/*global text ajustments for skills*/
+.contacts h3,
+.t-skills h3,
+.s-skills h3,
+.l-skills h3 {
+    font-weight: 700;
+    font-size: 28;
+    line-height: 1.6;
+}
+.t-skills ul,
+.s-skills ul,
+.l-skills ul {
+    /* margin-top: 10px; */
+    padding-left: 18px;
+}
+.t-skills li,
+.s-skills li,
+.l-skills li {
+    color: #FB6D3A;
+    font-weight: 400;
+    font-size: 22;
+    line-height: 1.5;
+}
+.t-skills span,
+.s-skills span,
+.l-skills span {
+    color: #FFFFFF;
+}
+/* @media (min-width: 450px) {
+    .background {
+        flex-direction: row;
+    }
+    .main-content{
+
+    }
+    .sidebar{
+        max-width: 370pxpx;
+        flex: 0 0 370px;
+    }
+    .ava-img {
+    }
+} */
